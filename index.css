@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+html, body{
+    background-color: #845ec2;
+
+}
+/* Main content */
+    .main{
+        height: 860px;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: #fcf7ff;
+
+        /* TopLeft | TopRight | BottomLeft | BottomRight */
+        border-radius: 0px 0px 48px 48px;
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    /*Personal Pic*/
+    .myPic{
+        /*Original Size: 2394x3412 */
+        width: 399px;
+        height: 568px;
+        margin-right: 100px;
+        border-radius: 16px;
+    }
+
+    .intro{
+        height: 500px;
+        width: 650px;
+        margin-left: 100px;
+        text-align: center;
+    }
+
+        .intro h2{
+            margin-bottom: 50px;
+            text-align: left;
+        }
+        .IText{
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 50px;
+        }
+
+/*Body*/
+.body{
+}
+    .body h1{
+        color: black;
+        padding-right: 50px;
+        font-weight: 500;
+    }
+    /*Education*/
+    #education{
+        margin: 70px 50px 70px 50px;
+        display:flex;
+        flex-direction: row;
+
+        p{
+            line-height: 23px;
+            /* top | right | bottom | left */
+            margin: 0px 10px 0px 10px;
+        }
+
+        span{
+            font-weight: 800;
+        }
+
+        .p2{
+            margin-top: 10px;
+        }
+
+    }
+        .e1{
+            background-color: #6c3fb6;
+
+            border-radius: 24px;
+            height: 350px;
+            width: 500px;
+            margin-right: 50px;
+
+            color: #c9c8ca;
+            text-align: center;
+            line-height: 40px;
+            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2);
+
+            h5{
+                line-height: 10px;
+                margin-bottom: 20px;
+            }
+
+
+            ul{
+                margin-top: 20px;
+                margin-left: 10px;
+                list-style-type: none;
+                line-height: 23px;
+
+                p{
+                    font-size: 15px;
+                }
+
+                li{
+                    font-size: 13px;
+                }
+            }
+
+        }
+        .e2{
+            background-color: #6c3fb6;
+
+            border-radius: 24px;
+            height: 350px;
+            width: 500px;
+            color: #c9c8ca;
+
+            text-align: center;
+            line-height: 40px;
+            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2);
+
+
+            h5{
+                line-height: 10px;
+                margin-bottom: 20px;
+            }
+
+
+
+        }
+
+    /*Skills*/
+    #skill{
+        margin: 70px 50px 70px 50px;
+        display:flex;
+        flex-direction: row;
+
+        div{
+            background-color: #6c3fb6;
+            
+            border-radius: 24px;
+            height: 350px;
+            width: 500px;
+            margin-right: 50px;
+
+            color: #c9c8ca;
+            text-align: center;
+            line-height: 40px;
+            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2);
+
+
+            ul{
+                list-style-type: none;
+                line-height: 30px;
+            }
+
+        }
+    }
+    /*Portfolio*/
+    #portfolio .display{
+        margin: 70px 50px 0px 50px;
+        display:flex;
+        flex-direction: row;
+
+        div{
+            background-color: #6c3fb6;
+            
+            border-radius: 24px;
+            height: 350px;
+            width: 500px;
+            margin-right: 50px;
+
+            color: #c9c8ca;
+            text-align: center;
+            line-height: 40px;
+            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2);
+
+
+        }
+
+    }
+
+        #portfolio button {
+            background-color: #845ec2;
+            display: flex;
+            overflow: hidden;
+            margin-left: 1350px;
+            user-select: none;
+            text-align: center;
+            border: 0px none;
+            border-radius: 36px;
+            padding: 5px 10px 5px 10px;
+
+            a{
+                color: #fcf7ff;
+            }
+
+            &:hover{
+                background-color: #4810a4;
+            }
+        }
+
+        .seeMore{
+
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: 700;
+
+        }
