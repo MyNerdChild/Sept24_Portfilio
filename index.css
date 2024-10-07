@@ -8,6 +8,7 @@ html, body{
 /* Main content */
     .main{
        /* height: 106vh;*/
+       padding-top: 200px;
        height: 75vh;
         display:flex;
         flex-direction: row;
