@@ -3,24 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--<link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="index.css">-->
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
-    <title>Krysta Parker</title>
-    <link rel="icon" type="image/x-icon" href="/assets/favicon_io/android-chrome-512x512.png">
+    <link rel="stylesheet" href="style.css">
+   
 
+
+    <title>Krysta Parker</title>
+
+
+    <!--<link rel="icon" type="image/x-icon" href="/assets/favicon_io/android-chrome-512x512.png">
+     <link rel="stylesheet" href="index.css">
+    -->
 </head>
 <body>
     
-    <div class="navbar">
-        <a href="#about">About</a>
-        <a href="./FullPorfolio.html">Portfolio</a>
-        <a href="#skill">Skills</a>
-        <a href="./assets/Oct24_Resume_krystaparker.pdf" target="_blank">Resume</a>
-        <a href="#contact">Contact</a>
-    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./FullPorfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./assets/Oct24_Resume_krystaparker.pdf" target="_blank">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-    <div class="main">
+
+    <section class="main">
        <!-- <img src="./assets/placeholder.jpg" class="myPic">-->
 
         <div class="intro">
@@ -31,83 +50,36 @@
             boundaries and turning ideas into reality through a unique blend of 
             technical skills and artistic vision.</p>   
         </div>
-    </div>
+    </section>
 
-    <div class="body">
-        <div id="about">
-            <div id="education" class="col-12">
-                <h1>Education</h1>
-                <div class="e1">
-                    <h2>Old Dominion University (ODU)</h2>
-                    <h4>Bachelors Degree Computer Science | Minor Cybersecurity</h4>
-                    <h5>May 2023 - December 2025</h5>
-                    <p> Focused on building strong foundations in <span>Software Development</span>, <span>App Development</span>, 
-                        and <span>Game Development</span>. </p>
-                        
-                    <p class="p2">Complementary studies include <span>Data Science</span> and <span>Chinese Language</span> 
-                        proficiency, enhancing both technical and global communication skills. Equipped with 
-                        a diverse skill set aimed at solving complex problems and creating innovative digital 
-                        solutions in a rapidly evolving technological landscape.</p>
-                </div>
-                <div class="e2">
-                    <h2>Tidewater Community College (TCC)</h2>
-                    <h4>Associates Degree Computer Science</h4>
-                    <h5>September 2021 - May 2023</h5>
-                    <p>Completed foundational coursework in a rigorous Associate's program in Computer Science, emphasizing 
-                        <span>programming</span>, <span>algorithms</span>, and <span>data structures</span>. Gained hands-on experience 
-                        in software development. Proficient in <span>C++</span>, with strong problem-solving abilities and a focus 
-                        on efficient, secure coding practices. Prepared for a seamless transfer to a four-year institution to further 
-                        specialize in advanced topics and pursue a Bachelor's degree in Computer Science.</p>
-                </div>
+    <section class="education">
+        <div class="col-12">
+            <h1>Education</h1>
+            <div class="e1">
+                <h2>Old Dominion University (ODU)</h2>
+                <h4>Bachelors Degree Computer Science | Minor Cybersecurity</h4>
+                <h5>May 2023 - December 2025</h5>
+                <p> Focused on building strong foundations in <span>Software Development</span>, <span>App Development</span>, 
+                    and <span>Game Development</span>. </p>
+                    
+                <p class="p2">Complementary studies include <span>Data Science</span> and <span>Chinese Language</span> 
+                    proficiency, enhancing both technical and global communication skills. Equipped with 
+                    a diverse skill set aimed at solving complex problems and creating innovative digital 
+                    solutions in a rapidly evolving technological landscape.</p>
             </div>
-
-            <div id="skill">
-                <h1>Skills</h1>
-                <div class="s1">
-                    <h2>Development</h2>
-                    <ul>
-                        <li>C++</li>
-                        <li>GitHub & Git</li>
-                        <li>Linux</li>
-                        <li>Java</li>
-                        <li>Html & CSS</li>
-                        <li>VSCode</li>
-                        <li>Netlify</li>
-                        <li>GODOT</li>
-
-                    </ul>
-                </div>
-                <div class="s2">
-                    <h2>Artisan</h2>
-                    <ul>
-                        <li>UI Design</li>
-                        <li>Pixel Art</li>
-                        <li>Technical Writing</li>
-                        <li>Fictional Writing</li>
-                        <li>Traditional Art</li>
-                        <li>Digital Art</li>
-                    </ul>
-
-                </div>
-                <div class="s3">
-                    <h2>Miscellaneous</h2>
-                    <ul>
-                        <li>Leadership</li>
-                        <li>Team Collaboration</li>
-                        <li>Communication</li>
-                        <li>Administrative Skills</li>
-                        <li>Data Entry</li>
-                        <li>Phone Etiquette</li>
-                        <li>Customer Service</li>
-                    </ul>
-
-                </div>
-
+            <div class="e2">
+                <h2>Tidewater Community College (TCC)</h2>
+                <h4>Associates Degree Computer Science</h4>
+                <h5>September 2021 - May 2023</h5>
+                <p>Completed foundational coursework in a rigorous Associate's program in Computer Science, emphasizing 
+                    <span>programming</span>, <span>algorithms</span>, and <span>data structures</span>. Gained hands-on experience 
+                    in software development. Proficient in <span>C++</span>, with strong problem-solving abilities and a focus 
+                    on efficient, secure coding practices. Prepared for a seamless transfer to a four-year institution to further 
+                    specialize in advanced topics and pursue a Bachelor's degree in Computer Science.</p>
             </div>
         </div>
-    
-    
-    </div>
+
+    </section>
 
     <section class="container">
         <h1>Reflections on BS degree at ODU</h1>

@@ -12,7 +12,7 @@ html, body{
 }
 
 /* The navigation bar */
-  .navbar {
+  .Mnavbar {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -42,3 +42,38 @@ html, body{
     }
 
 /*Footer*/
+
+/* Main content */
+.main{
+  /* height: 106vh;*/
+  padding-top: 200px;
+  height: 75vh;
+   display:flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   background-color: #fcf7ff;
+
+   /* TopLeft | TopRight | BottomLeft | BottomRight */
+  /* border-radius: 0px 0px 48px 48px;
+   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.3);*/
+}
+
+.intro{
+   height: 500px;
+  /* width: 650px;*/
+   width: 1000px;
+   margin-left: 100px;
+   text-align: center;
+}
+
+   .intro h2{
+       margin-bottom: 50px;
+       text-align: left;
+   }
+   .IText{
+       font-size: 25px;
+       font-weight: 700;
+       line-height: 50px;
+   }
