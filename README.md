@@ -1,5 +1,5 @@
-# Sept24_Portfilio
-September 2024's Portfilio
+# Portfilio
+Started this in September 2024
 
 NEEDS FOR UPDATE
 
